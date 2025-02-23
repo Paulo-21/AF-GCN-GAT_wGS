@@ -1,6 +1,6 @@
 # AF-GCN-GAT_wGS
 
-Ce dépôt contient le code utilisé pour notre article accepté à **COMMA24**, disponible [ici](https://arxiv.org/pdf/2404.18672). Ce projet met en œuvre des réseaux de neurones graphiques (**GCN** et **GAT**) avec des sémantiques graduées pour l'argumentation abstraire.
+Ce dépôt contient le code utilisé pour notre article accepté à **COMMA24**, disponible sur [arxiv](https://arxiv.org/pdf/2404.18672). Ce projet met en œuvre des réseaux de neurones graphiques (**GCN** et **GAT**) avec des sémantiques graduées pour l'argumentation abstraire.
 
 ## Installation
 

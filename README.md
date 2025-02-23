@@ -55,7 +55,7 @@ For the training part
 ```
 For the solver part
 ```bash
-    python3 solver_name.py
+    python3 solver_name.py FILE_PATH TASK ARG_ID
 ```
 
 ## Références

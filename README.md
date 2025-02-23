@@ -28,7 +28,7 @@ pip install maturin
 
 ### 2. Installer `af_reader_py`
 
-Le module **`af_reader_py`**, développé pour ce projet, permet d'intégrer les sémantiques graduées comme **hcat** et le calcul de la grounded pour l'argumentation abstraire. Vous pouvez l'installer de deux manières :
+Le module **`af_reader_py`**, développé pour ce projet, permet d'intégrer les sémantiques graduées comme **hcat** et le calcul de la grounded pour l'argumentation abstraire ainsi que pour lire le fichier. Vous pouvez l'installer de deux manières :
 
 #### Via `pip`
 ```bash
@@ -41,12 +41,22 @@ Si vous souhaitez compiler et installer la bibliothèque localement :
 ```bash
 cd af_reader_py
 maturin build -r
-pip install the_path_of_the_whelles
+pip install the_path_of_the_wheel
 ```
+## Disposition
+
+Les fichiers pour l'entrainement du model commence par un training_
+Les fichiers commencant par afvgcn* sont les scripts qui embarque le model correspondant et l'utilise comme solver.
 
 ## Utilisation
-
-[Ajoute ici des instructions pour exécuter le code ou un exemple d'utilisation.]
+For the training part
+```bash
+    python3 training_....py 
+```
+For the solver part
+```bash
+    python3 solver_name.py
+```
 
 ## Références
 
@@ -62,7 +72,3 @@ Si vous utilisez ce projet, veuillez citer notre article :
   eprint={2404.18672}
 }
 ```
-
----
-
-Si tu veux d'autres modifications ou ajouts, dis-moi ! 😊
